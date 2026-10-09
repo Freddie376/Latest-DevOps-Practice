@@ -1,5 +1,4 @@
 Part 1: Colors and basic listing (1-12)
-#	Command	What it does
 1	ls	Lists the files and folders in the current folder.
 2	ls --color=no	Lists them with no colors.
 3	ls --color=yes	Lists them with colors, always.
@@ -14,7 +13,6 @@ Part 1: Colors and basic listing (1-12)
 12	ls -al	Long format and hidden files together.
 
 Part 2: Times and creating files (13-25)
-#	Command	What it does
 13	date	Shows the current date and time.
 14	ls -lt	Long format, sorted by modification time (when the file content last changed). Newest first.
 15	ls -ltu	Same, but uses the access time (when the file was last opened or read).
@@ -30,7 +28,6 @@ Part 2: Times and creating files (13-25)
 25	ls -ltc	Checks change times. Changing permissions updates the change time, but not the modification time.
 
 Part 3: File sizes (26-30)
-#	Command	What it does
 26	ls -s	Shows the size of each file (in blocks) next to its name.
 27	ls -ls	Long format plus the size in blocks.
 28	ls -lh	Long format with human-readable sizes like K, M, G (based on 1024).
@@ -38,7 +35,6 @@ Part 3: File sizes (26-30)
 30	ls -lSh	Sorts by size, largest first, with readable sizes.
 
 Part 4: Output style (31-37)
-#	Command	What it does
 31	ls -1	Shows one item per line.
 32	ls -m	Shows items in one line, separated by commas.
 33	ls -lQ	Long format with names inside double quotes.
@@ -48,21 +44,19 @@ Part 4: Output style (31-37)
 37	ls -l --time-style=full-iso	Shows the full date with seconds and time zone.
 
 Part 5: More details and sorting (38-43)
-#	Command	What it does
 38	ls -al --author	Adds a column for the file's author. On Linux this is usually the same as the owner.
 39	ls -ald	The -d shows info about the folder itself, not what is inside it.
 40	ls -ali	The -i shows each file's inode number (its unique ID in the system).
 41	ls -alR	The -R is recursive: it also lists everything inside subfolders.
 42	ls -alr	The -r reverses the order of the list.
 43	ls -alSr	Sorts by size and reverses it, so the smallest files come first.
+
 Part 6: Help and history (44-46)
-#	Command	What it does
 44	ls --version	Shows which version of ls is installed.
 45	ls --help	Shows a short guide to all ls options.
 46	history	Shows the list of commands you typed before. This list came from it.
 
 Quick option cheat sheet
-Option	Meaning
 -l	Long format (details)
 -a / -A	Show hidden files (-A skips . and ..)
 -h	Human-readable sizes
